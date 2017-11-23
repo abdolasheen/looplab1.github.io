@@ -1,0 +1,69 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.7;
+  min-width: 100%; }
+
+#home-section {
+  background: url("../img/home.jpg") center top fixed;
+  min-height: 700px;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #home-section .dark-overlay {
+    background-color: black;
+    opacity: .7;
+    min-height: 700px;
+    top: 69px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .fa {
+    background: white;
+    color: #008ed6;
+    padding: 3px;
+    border-radius: 5px; }
+  #home-section .card1 {
+    background: #008ed6;
+    opacity: 0.9; }
+
+#explore-section {
+  background: white; }
+  #explore-section .fa {
+    color: white;
+    background: #333;
+    padding: 3px;
+    border-radius: 5px; }
+
+#creat a, #Share-head-section a {
+  color: white; }
+
+#creat .btn-outline-secondary, #Share-head-section .btn-outline-secondary {
+  color: white; }
+
+#explore-section2 {
+  color: white; }
+  #explore-section2 .fa {
+    background: white;
+    color: #008ed6;
+    padding: 3px;
+    border-radius: 5px; }
+
+#share {
+  background: white;
+  color: #333; }
+  #share .fa {
+    background: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px; }
+
+#ContactModal {
+  color: #333; }
